@@ -1,4 +1,4 @@
-<img src="https://github.com/matejstastny/servermatica/blob/main/src/main/resources/icon.png?raw=true" alt="Modpack icon" width="20%" align="right">
+<img src="https://github.com/matejstastny/servermatica/blob/main/src/main/resources/assets/servermatica/icon.png?raw=true" alt="Modpack icon" width="20%" align="right">
 
 # Servermatica
 
