@@ -1,3 +1,5 @@
+<img src="https://github.com/matejstastny/servermatica/blob/main/src/main/resources/icon.png?raw=true" alt="Modpack icon" width="20%" align="right">
+
 # Servermatica
 
 A Litematica companion mod for servers. Enables easy place, fixes crafter block interactions, splits large schematic packets so they work over standard server connections, and more. Requireded on both client and server for full functionality.
