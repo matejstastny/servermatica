@@ -1,6 +1,6 @@
 # Servermatica
 
-A Litematica companion mod for servers. Enables easy place, fixes crafter block interactions, splits large schematic packets so they work over standard server connections, and more.
+A Litematica companion mod for servers. Enables easy place, fixes crafter block interactions, splits large schematic packets so they work over standard server connections, and more. Requireded on both client and server for full functionality.
 
 ## Features
 
@@ -18,15 +18,3 @@ A Litematica companion mod for servers. Enables easy place, fixes crafter block 
 | [Litematica](https://modrinth.com/mod/litematica) | Client |
 | [MaLiLib](https://modrinth.com/mod/malilib) | Client |
 | [Carpet](https://modrinth.com/mod/carpet) | Server |
-
-## Installation
-
-Install on **both client and server**. The client-side features (easy place, schematic rendering) require Litematica. The server-side features (Easy Place Protocol, packet splitter) work independently.
-
-## Usage
-
-All features are configurable through the Litematica config screen (`M` → `Config`). The Easy Place Protocol activates automatically when both sides have Servermatica installed.
-
-## License
-
-MIT
