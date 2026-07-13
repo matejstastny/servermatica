@@ -1,32 +1,23 @@
 {
-  "schemaVersion": 1,
-  "id": "servermatica",
-  "version": "${version}",
-  "name": "Servermatica",
-  "description": "Litematica companion mod for servers: easy place, crafter fixes, packet splitter, and more",
-  "authors": [
-    "Matej Stastny"
-  ],
-  "contact": {
-    "repo": "https://github.com/matejstastny/servermatica"
-  },
-  "license": "MIT",
-  "icon": "assets/servermatica/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "client": [
-      "matejstastny.servermatica.client.ServermaticaClient"
-    ],
-    "main": [
-      "matejstastny.servermatica.server.ServermaticaServer"
-    ]
-  },
-  "mixins": [
-    "servermatica.client.mixins.json",
-    "servermatica.server.mixins.json"
-  ],
-  "depends": {
-    "minecraft": "${mcversions}",
-    "fabricloader": ">=0.15.0"
-  }
+    "schemaVersion": 1,
+    "id": "servermatica",
+    "version": "${version}",
+    "name": "Servermatica",
+    "description": "Litematica companion mod for servers: easy place, crafter fixes, packet splitter, and more",
+    "authors": ["Matej Stastny"],
+    "contact": {
+        "repo": "https://github.com/matejstastny/servermatica"
+    },
+    "license": "MIT",
+    "icon": "assets/servermatica/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": ["matejstastny.servermatica.client.ServermaticaClient"],
+        "main": ["matejstastny.servermatica.server.ServermaticaServer"]
+    },
+    "mixins": ["servermatica.client.mixins.json", "servermatica.server.mixins.json"],
+    "depends": {
+        "minecraft": "${mcversions}",
+        "fabricloader": ">=0.15.0"
+    }
 }
