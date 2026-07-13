@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "matejstastny.servermatica.mixin.server",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockItemMixin_EasyPlaceProtocol",
+    "ServerPlayNetworkHandlerMixin_EasyPlaceProtocol"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "plugin": "matejstastny.servermatica.mixin.ServermaticaMixinPlugin"
+}
