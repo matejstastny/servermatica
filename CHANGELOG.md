@@ -1,5 +1,7 @@
 # Changelog
 
+## [Current]
+
 ## [1.0.0]
 
 - Initial release as Servermatica (rebranded from litemoretica)
