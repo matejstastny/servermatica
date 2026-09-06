@@ -1,6 +1,7 @@
 .gradle/
 build/
 bin/
+run/
 *.log
 dist/
 

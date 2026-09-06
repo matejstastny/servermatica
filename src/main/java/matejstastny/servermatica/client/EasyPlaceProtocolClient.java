@@ -9,7 +9,7 @@ import matejstastny.servermatica.network.InitEasyPlaceProtocolPacket;
 import matejstastny.servermatica.network.SetEasyPlaceProtocolPacket;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
-import net.minecraft.state.property.Property;
+import net.minecraft.world.level.block.state.properties.Property;
 
 public final class EasyPlaceProtocolClient {
     private static final ImmutableSet<Property<?>> DEFAULT_WHITELISTED_PROPERTIES = PlacementHandler.WHITELISTED_PROPERTIES;
