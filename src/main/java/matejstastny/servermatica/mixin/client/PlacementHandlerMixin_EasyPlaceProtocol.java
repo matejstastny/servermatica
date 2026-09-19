@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(value = PlacementHandler.class, remap = false)
 public class PlacementHandlerMixin_EasyPlaceProtocol {
-    @Inject(method = "getEffectiveProtocolVersion", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/MinecraftClient;isInSingleplayer()Z", remap = true), cancellable = true)
+    @Inject(method = "getEffectiveProtocolVersion", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/Minecraft;isLocalServer()Z", remap = true), cancellable = true)
     private static void allowV3OnServermaticaServer(CallbackInfoReturnable<EasyPlaceProtocol> cir) {
         if (EasyPlaceProtocolClient.serverHasV3Protocol) {
             cir.setReturnValue(EasyPlaceProtocol.V3);
