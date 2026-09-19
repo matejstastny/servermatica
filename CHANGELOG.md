@@ -2,6 +2,10 @@
 
 ## [Current]
 
+## [1.2.1] - 2026-09-19
+
+- Replaced old Yarn mapping for an official MC one
+
 ## [1.2.0] - 2026-09-19
 
 - Updated for Minecraft 26.2
