@@ -2,6 +2,11 @@
 
 ## [Current]
 
+## [1.2.0] - 2026-09-19
+
+- Updated for Minecraft 26.2
+- Updated Fabric API to 0.161.0+26.2, Litematica to 0.28.8, MaLiLib to 0.29.6, Carpet to 26.2
+
 ## [1.1.0] - 2026-09-06
 
 - Updated for Minecraft 26.1.2
